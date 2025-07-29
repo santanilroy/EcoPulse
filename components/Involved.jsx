@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const Involved = () => {
   return (
@@ -18,10 +19,24 @@ const Involved = () => {
 
           <div className="flex flex-col sm:flex-row justify-center items-center gap-6 sm:gap-12 w-full mt-4">
             <button className="bg-white text-green-600 hover:bg-purple-100 px-6 sm:px-8 py-3 sm:py-4 rounded-full text-base sm:text-lg font-semibold shadow-lg transition-all duration-300 transform hover:scale-105 w-full sm:w-auto">
-              Explore Resources
+              <Link
+                href={
+                  "https://www.un.org/sustainabledevelopment/climate-action/"
+                }
+                target="blank"
+              >
+                Explore Resources
+              </Link>
             </button>
             <button className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-green-400 px-6 sm:px-8 py-3 sm:py-4 rounded-full text-base sm:text-lg font-semibold shadow-lg transition-all duration-300 transform hover:scale-105 w-full sm:w-auto mt-3 sm:mt-0">
-              Find Organizations
+              <Link
+                href={
+                  "https://www.google.com/search?q=climate+action+organizations"
+                }
+                target="blank"
+              >
+                Find Organizations
+              </Link>
             </button>
           </div>
         </div>

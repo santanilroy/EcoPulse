@@ -46,7 +46,7 @@ export default function Data() {
         {/* Temperature Anomaly Chart */}
         <div className="bg-blue-50 p-4 sm:p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
           <h3 className="text-lg sm:text-2xl font-semibold mb-4 sm:mb-6 text-blue-800">
-            Global Temperature Anomaly ($^\circ$C)
+            Global Temperature Anomaly (&#8451;)
           </h3>
           <ResponsiveContainer width="100%" height={250}>
             <LineChart data={temperatureData}>
