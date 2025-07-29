@@ -1,36 +1,84 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Ecopulse – Climate Awareness Web App
+EcoPulse is a modern, responsive climate change awareness platform built using Next.js 15, Tailwind CSS, and Gemini AI. It delivers real-time, AI-generated climate facts to help users understand environmental issues and promote sustainability.
 
-## Getting Started
+🚀 Live Demo
+🔗 Click to View Live — eco-pulse-five.vercel.app
 
-First, run the development server:
 
-```bash
+🛠️ Tech Stack
+Framework: Next.js 15
+
+Styling: Tailwind CSS 4
+
+Charts: Recharts
+
+AI Integration: Google Gemini API
+
+Icons: React Icons
+
+State: React Hooks
+
+pgsql
+Copy
+Edit
+/public/hero.png
+/public/climate-fact-box.png
+✨ Features
+🌡️ AI-Powered Climate Facts (Gemini integration)
+
+📊 Responsive Charts & Visuals (Recharts)
+
+📱 Fully Responsive Design
+
+🧩 Modular Component Architecture
+
+⚙️ Local Setup
+Clone the repository
+
+bash
+Copy
+Edit
+git clone https://github.com/Santanilroy/EcoPulse.git
+cd EcoPulse
+Install dependencies
+
+bash
+Copy
+Edit
+npm install
+Add Environment Variables
+
+Create a .env.local file in the root:
+
+ini
+Copy
+Edit
+GEMINI_API_KEY=your_google_gemini_api_key
+Start the development server
+
+bash
+Copy
+Edit
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Then open http://localhost:3000 in your browser.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+📁 Folder Structure (Optional)
+bash
+Copy
+Edit
+/app          → App routes (Next.js)
+/components   → React components
+/styles       → Tailwind/global styles
+/api          → Gemini API handler
+🧠 Future Improvements
+User Auth & Saved Facts
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Real-time API Integration
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Language Switch (i18n)
 
-## Learn More
+📜 License
+MIT — feel free to use and modify!
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🤝 Contributing
+Pull requests are welcome. For major changes, please open an issue first.
